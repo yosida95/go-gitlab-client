@@ -52,6 +52,7 @@ type Project struct {
 	Namespace            *Namespace `json:"namespace,omitempty"`
 	SshRepoUrl           string     `json:"ssh_url_to_repo"`
 	HttpRepoUrl          string     `json:"http_url_to_repo"`
+	WebUrl               string     `json:"web_url"`
 }
 
 /*
